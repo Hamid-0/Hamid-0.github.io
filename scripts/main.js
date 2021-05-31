@@ -30,14 +30,19 @@ function openInfo(evt, tabName) {
 
 	}
 	if (tabName == 'Client') {
-		document.getElementById("start").textContent ='Welcome to Walmart!';
+		document.getElementById("start").textContent ='Start Over';
 		document.getElementById("chose").disabled = true;
 		document.getElementById("dietSelect").selectedIndex = 0;
 		total = 0;
 
 	}
 	
+	function hide() {
+		  var x = document.getElementById("start");
 
+	    x.style.display = "none";
+
+}
 }
 function organicCheck() {
   var x = document.getElementById("org").checked;
