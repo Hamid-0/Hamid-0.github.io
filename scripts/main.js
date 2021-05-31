@@ -24,7 +24,6 @@ function openInfo(evt, tabName) {
 
 	document.getElementById("start").innnerHTML=
    	"New Button Text using innerHTML";		
-	document.getElementById("continue").disabled = true;
 			
 
 
@@ -33,6 +32,7 @@ function openInfo(evt, tabName) {
 		document.getElementById("start").textContent ='Start Over';
 		document.getElementById("chose").disabled = true;
 		document.getElementById("dietSelect").selectedIndex = 0;
+		document.getElementById("org").checked = false;
 		total = 0;
 
 	}
